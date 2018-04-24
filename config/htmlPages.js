@@ -5,18 +5,18 @@ module.exports=[
         "chuckName": "index"
     },
     {
-        "filename": "pageA.html",
-        "template": "./src/pages/pageA.html",
-        "chuckName": "pageA"
+        "filename": "about.html",
+        "template": "./src/pages/about.html",
+        "chuckName": "about"
     },
     {
-        "filename": "pageB.html",
-        "template": "./src/pages/pageB.html",
-        "chuckName": "pageB"
+        "filename": "price.html",
+        "template": "./src/pages/price.html",
+        "chuckName": "price"
     },
     {
-        "filename": "pageC.html",
-        "template": "./src/pages/pageC.html",
-        "chuckName": "pageC"
+        "filename": "product.html",
+        "template": "./src/pages/product.html",
+        "chuckName": "product"
     }
 ]

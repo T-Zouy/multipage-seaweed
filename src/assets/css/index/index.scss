@@ -2,8 +2,10 @@
  * stylesheet of main
  */
 @import "../../../common/css/reset.css";
+@import "../../../common/css/header.scss";
+@import "../../../common/css/footer.scss";
 @import "./animate.scss";
-//@import "fullpage";
+@import "./tooltip.css";
 
 .static-img-customer {
   position: absolute;
@@ -125,39 +127,9 @@
   }
 }
 
-.header {
+.placeholder {
+  width: 1px;
   height: 64px;
-  background: rgba(255, 255, 255, 1);
-  box-shadow: 0 1px 0 0 rgba(221, 221, 221, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  .logo {
-    width: 113px;
-    height: 30px;
-    margin-right: 460px;
-  }
-  .nav {
-    margin-right: 431px;
-    display: flex;
-    li {
-      margin-right: 79px;
-      a {
-        color: #333;
-        font-size: 16px;
-        line-height: 22px;
-        white-space: nowrap;
-      }
-    }
-  }
-  .btn-login {
-    a {
-      color: #333;
-      font-size: 16px;
-      line-height: 22px;
-      white-space: nowrap;
-    }
-  }
 }
 
 .section-1 {
@@ -168,6 +140,7 @@
   align-items: center;
   .left {
     max-width: 530px;
+    min-width: 354px;
     margin-right: 112px;
     .title {
       margin: 81px 0 47px 8px;
@@ -189,7 +162,7 @@
     }
   }
   .right {
-    width: 770px;
+    min-width: 770px;
     height: 620px;
     background: url("../../img/extension-illustration.png") center / 100% 100% no-repeat;
   }
@@ -725,74 +698,4 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.middle-footer {
-  width: 100%;
-  max-width: 1400px;
-  height: 266px;
-  padding-top: 60px;
-  display: flex;
-  justify-content: space-between;
-  dl {
-    width: 104px;
-    display: flex;
-    flex-direction: column;
-    dt {
-      color: #333;
-      font-size: 16px;
-      line-height: 22px;
-    }
-    dd {
-      margin-top: 31px;
-      color: #999;
-      font-size: 14px;
-      a {
-        color: #999;
-        font-size: 14px;
-      }
-    }
-  }
-  .others {
-    width: 180px;
-    margin-right: 0;
-  }
-}
-
-.copyright {
-  width: 100%;
-  height: 135px;
-  background: #fafbfc;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  .dividing-line {
-    width: 1400px;
-    height: 3px;
-    background-color: #EEEDED;
-  }
-  .copyright-1,
-  .copyright-2 {
-    margin-top: 28px;
-    color: #999;
-    font-size: 12px;
-    line-height: 17px;
-  }
-  .copyright-2 {
-    margin-top: 13px;
-  }
-}
-
-/* Overwriting fullPage.js tooltip color
-* --------------------------------------- */
-.fp-tooltip {
-  color: #AAA;
-}
-
-#fp-nav span, .fp-slidesNav span {
-  border-color: #AAA;
-}
-
-#fp-nav li .active span, .fp-slidesNav .active span {
-  background: #AAA;
 }

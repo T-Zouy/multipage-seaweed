@@ -16,7 +16,7 @@ let base_plugin = [
     }),
     new webpack.optimize.CommonsChunkPlugin({
         name: "vendors",
-        chunks: ["pageA", "pageB", "pageC"],//提取公用模块
+        chunks: ["about", "price", "product"],//提取公用模块
         minChunks: Infinity
     }),
     /*js压缩*/

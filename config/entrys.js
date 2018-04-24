@@ -1,7 +1,6 @@
 module.exports={
     "index": "./src/js/index.js",
-    "pageA": "./src/js/pageA.js",
-    "pageB": "./src/js/pageB.js",
-    "pageC": "./src/js/pageC.js",
-    "testm": "./src/js/testm.js"
+    "about": "./src/js/about.js",
+    "price": "./src/js/price.js",
+    "product": "./src/js/product.js"
 }
