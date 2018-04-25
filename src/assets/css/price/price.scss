@@ -1,3 +1,26 @@
 @import "../../../common/css/reset.css";
 @import "../../../common/css/header.scss";
 @import "../../../common/css/footer.scss";
+@import "./price-detail.scss";
+@import "./common-question.scss";
+
+.overview {
+  width: 1920px;
+  height: 600px;
+  background: url("../../../assets/img/banner-price.png") center / 100% no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .title {
+    margin-top: 200px;
+    color: #111;
+    font-size: 58px;
+    line-height: 70px;
+  }
+  .introduction {
+    margin-top: 30px;
+    color: #333;
+    font-size: 30px;
+    line-height: 42px;
+  }
+}

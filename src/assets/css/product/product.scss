@@ -1,3 +1,57 @@
 @import "../../../common/css/reset.css";
 @import "../../../common/css/header.scss";
 @import "../../../common/css/footer.scss";
+
+.overview {
+  width: 1920px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .title {
+    margin-top: 200px;
+    color: #111;
+    font-size: 58px;
+    line-height: 70px;
+  }
+  .introduction {
+    margin-top: 30px;
+    color: #333;
+    font-size: 30px;
+    line-height: 42px;
+  }
+}
+
+.section-step {
+  width: 100%;
+  padding: 132px 0;
+  &:nth-child(even) {
+    background-color: #fff;
+  }
+  &:nth-child(odd) {
+    background-color: #fafbfc;
+  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .introduce {
+    width: 590px;
+    height: 480px;
+    border: 1px solid red;
+  }
+  .introduce-img {
+    width: 590px;
+    height: 480px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 10px 20px 0 rgba(187, 188, 187, 0.34);
+    border-radius: 10px;
+  }
+}

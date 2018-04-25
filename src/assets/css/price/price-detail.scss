@@ -1,0 +1,109 @@
+.price-detail {
+  width: 100%;
+  padding: 68px 0 75px 0;
+  margin: 0 auto;
+  box-shadow: 0 -1px 0 0 rgba(221, 221, 221, .5);
+}
+
+.subtitle {
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .left-round,
+  .right-round {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #ccc;
+    transform: rotate(45deg);
+  }
+  .price-text {
+    color: #333;
+    font-size: 48px;
+    line-height: 67px;
+    white-space: nowrap;
+    margin: 0 67px;
+  }
+  .left-line,
+  .right-line {
+    width: 528px;
+    height: 1px;
+    background-color: #ccc;
+  }
+}
+
+.price-cards {
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  .card {
+    width: 475px;
+    min-width: 475px;
+    height: 585px;
+    padding-left: 69px;
+    .price-type {
+      margin-top: 59px;
+      color: #fff;
+      font-size: 36px;
+      line-height: 50px;
+    }
+    .number {
+      margin-top: 83px;
+      color: #999;
+      font-size: 30px;
+      line-height: 81px;
+      span {
+        color: #000;
+        font-size: 58px;
+        line-height: 81px;
+      }
+    }
+    .people-number {
+      color: #999;
+      font-size: 30px;
+      line-height: 42px;
+    }
+    .price-introduction {
+      margin-top: 41px;
+      color: #999;
+      font-size: 24px;
+      line-height: 33px;
+      .price-average {
+        color: #333;
+      }
+    }
+    .btn-reserve {
+      margin-top: 54px;
+      width: 192px;
+      height: 60px;
+      border: 1px solid #3FD36C;
+      border-radius: 30px;
+      color: #3FD36C;
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .card-elite {
+    background: url("../../../assets/img/bg-blue-elite.png") center / 100% no-repeat;
+  }
+
+  .card-ultimate {
+    background: url("../../../assets/img/bg-orange-ultimate.png") center / 100% no-repeat;
+  }
+
+  .card-custom {
+    background: url("../../../assets/img/bg-green-custom.png") center / 100% no-repeat;
+    .price-communicate {
+      margin-top: 98px;
+      color: #111;
+      font-size: 43px;
+      line-height: 61px;
+    }
+    .price-introduction {
+      margin-top: 88px;
+    }
+  }
+}
